@@ -21,7 +21,8 @@ function getConf(){
 
   var tab_ch = localStorage['tab_ch'];
   if (tab_ch == undefined ){
-    tab_ch = '﹏';
+    // tab_ch = '﹏';
+    tab_ch = '░░';
   }
   var tab_str = tab_ch;
   for(i = 0; i< 3; i ++){
